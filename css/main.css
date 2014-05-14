@@ -1,0 +1,181 @@
+/* =====================   GRID =====================   */
+
+body {
+  background: url("../img/grid_w936_c96_g24.png") repeat-y 50% 0;
+}
+
+/* =====================   LAYOUT ===================== */
+
+/* body { text-align: center; } */
+
+.wrapper {
+  width: 936px;
+  margin: 0px auto;
+}
+
+/* ==================   THEME   ======================== */
+
+/* ==================   HEADER   ======================== */
+
+header {
+  display: block;
+  height: 108px;
+  border-top: 12px solid rgb(123,123,123);
+  position: relative;
+  margin-bottom: 48px;
+}
+
+.logo-container {
+  position: relative;
+  display: inline-block;
+  float: left;
+  width: 240px;
+  height: 108px;
+}
+
+.logo {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  top: 12px;
+  background-color: rgb(251,70,202);
+  border-radius: 48px;
+  text-align: center;
+}
+
+#logo-bulb {
+  position: relative;
+  top: 12px;
+}
+
+.logotext {
+  background: url("../img/alb-logotype.png") no-repeat scroll left top;
+  top: 54px;
+  display: block;
+  height: 48px;
+  left: 94px;
+  position: absolute;
+  text-indent: -100%;
+  width: 130px;
+  overflow: hidden;
+}
+
+.nav {
+  display: inline-block;
+  width: 456px;
+  height: 108px;
+  position: relative;
+  left: 120px;
+}
+
+.nav ul {
+  margin-top: 42px;
+}
+
+.nav ul li {
+  display: inline-block;
+  font-family: verdana, sans-serif;
+  font-size: 18px;
+  margin-right: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: rgb(1,1,1);
+}
+
+.cart-container {
+  display: inline-block;
+  width: 96px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: rgb(174,169,169);
+  float: right;
+  margin-top: 30px;
+  position: relative;
+}
+
+#cart-counter {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  background-color: rgb(215,212,212);
+  margin-top: 5px;
+  margin-left: 5px;
+  text-align: center;
+}
+
+#cart-counter p {
+  color: rgb(255,255,255);
+  font-family: Arial, sans-serif;
+  position: relative;
+  top: 5px;
+}
+
+#cart {
+  background: url('../img/icons_sprite_50x226.png') no-repeat -13px -16px;
+  width: 26px;
+  height: 23px;
+  position: absolute;
+  right: 15px;
+  top: 7px;
+}
+
+/* ==================   MAIN SECTION   ======================== */
+
+.main h1 {
+  font-family: Times, sans-serif;
+  font-size: 50px;
+  margin-bottom: 24px;
+}
+
+.main h1 b {
+  font-family: Times, sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+}
+
+.main h3 {
+  font-family: Times, sans-serif;
+  font-style: italic;
+  font-size: 24px;
+  color: rgb(8,123,37);
+  margin-bottom: 24px;
+}
+
+#buying-options {
+  height: 72px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+  font-size: 0;
+}
+
+#paperback-box, #ebook-box {
+  width: 336px;
+  height: 72px;
+  border-radius: 5px;
+  background-color: rgb(229,227,229);
+}
+
+#paperback-box {
+  margin-left: 240px;
+  display: inline-block;
+}
+
+#ebook-box {
+  display: inline-block;
+  margin-left: 24px;
+}
+
+#paperback-small-box {
+  width: 216px;
+  height: 72px;
+  background-color: teal;
+}
+
+/*  ==================  HELPERS ===================== */
+
+.hidden {
+  display: none;
+}

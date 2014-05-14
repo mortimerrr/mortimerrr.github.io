@@ -1,0 +1,74 @@
+/* =====================   GRID =====================   */
+
+body {
+  background: url("../img/grid_w936_c96_g24.png") repeat-y 50% 0;
+}
+
+
+/* =====================   LAYOUT ===================== */
+
+body {
+  text-align: center;
+}
+
+.wrapper {
+  width: 936px;
+  margin: 0px auto;
+}
+
+
+/* ==================   THEME  ======================== */
+
+.logo-container {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 240px;
+}
+
+.alb-logotype {
+  background: url("../img/alb-logotype.png") no-repeat scroll left top;
+  top: 54px;
+  display: block;
+  height: 48px;
+  left: 94px;
+  position: absolute;
+  text-indent: -100%;
+  width: 130px;
+  overflow: hidden;
+}
+
+/*  ==================  ICONS ===================== */
+
+.icon {
+  background-image: url("alb_icons_50x226.png");
+  background-position: 50% 0;
+  display: block; 
+}
+
+.icon-shopping-cart {
+  background-position: 50% 0px;
+  height: 30px;
+  width: 30px;
+}
+
+/*  ==================  SHOPPING CART ===================== */
+
+.shopping-cart {
+  height: 35px;
+  min-width: 96px;
+  border-radius: 6px;
+  text-decoration: none;
+  background: red;
+  float: right;
+}
+
+.shopping-cart__count {
+
+}
+
+/*  ==================  HELPERS ===================== */
+
+.none {
+  display: none;
+}
