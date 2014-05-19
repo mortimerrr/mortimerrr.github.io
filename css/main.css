@@ -1,8 +1,8 @@
 /* =====================   GRID =====================   */
 
-body {
+/*body {
   background: url("../img/grid_w936_c96_g24.png") repeat-y 50% 0;
-}
+}*/
 
 /* =====================   LAYOUT ===================== */
 
@@ -148,7 +148,6 @@ header {
   height: 72px;
   margin-top: 48px;
   margin-bottom: 24px;
-  font-size: 0;
 }
 
 #paperback-box, #ebook-box {
@@ -161,6 +160,8 @@ header {
 #paperback-box {
   margin-left: 240px;
   display: inline-block;
+  clear: both;
+  position: relative;
 }
 
 #ebook-box {
@@ -168,14 +169,7 @@ header {
   margin-left: 24px;
 }
 
-#paperback-small-box {
-  width: 216px;
-  height: 72px;
-  background-color: teal;
-}
-
-#paperback-icon {
-  background: url('../img/icons_sprite_50x226.png') no-repeat -5px -55px;
+.buying-icon {
   width: 42px;
   height: 55px;
   margin-left: 10px;
@@ -184,9 +178,47 @@ header {
   display: inline-block;
 }
 
-#paperback-text {
+#paperback-icon {
+  background: url('../img/icons_sprite_50x226.png') no-repeat -5px -55px;
+}
+
+#paperback-text, #ebook-text {
   color: black;
-  font-size: 2em;
+  font-size: 1em;
+  display: inline-block;
+  line-height: 24px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+#paperback, #ebook {
+  font-weight: bold;
+}
+
+.buy-button {
+  width: 70px;
+  height: 40px;
+  border-radius: 7px;
+  background-color: rgb(251,70,202);
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  font-size: 1.2em;
+  line-height: 2em;
+}
+
+#ebook-box {
+  float: right;
+  margin-left: 20px;
+  position: relative;
+}
+
+#ebook-icon {
+  background: url('../img/icons_sprite_50x226.png') no-repeat -5px -112px;
 }
 
 
