@@ -8,6 +8,11 @@
 
 /* body { text-align: center; } */
 
+#top-grey-line {
+  height: 12px;
+  background-color: rgb(123,123,123);
+}
+
 .wrapper {
   width: 936px;
   margin: 0px auto;
@@ -20,7 +25,6 @@
 header {
   display: block;
   height: 108px;
-  border-top: 12px solid rgb(123,123,123);
   position: relative;
   margin-bottom: 48px;
 }
