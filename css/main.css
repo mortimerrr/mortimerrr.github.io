@@ -46,7 +46,24 @@ header {
 #logo-bulb {
   position: relative;
   top: 12px;
+
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
 }
+
+#logo-bulb:hover {
+    -webkit-transform:rotate(180deg);
+    -moz-transform:rotate(180deg); 
+    -o-transform:rotate(180deg);
+}
+
 
 .logotext {
   background: url("../img/alb-logotype.png") no-repeat scroll left top;
